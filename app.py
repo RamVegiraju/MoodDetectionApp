@@ -4,7 +4,7 @@ import boto3
 #Boto3 Clients for S3 and Rekog
 s3 = boto3.resource('s3', region_name = 'us-east-1')
 rekogClient = boto3.client('rekognition', region_name = 'us-east-1')
-imagesBucket = "mood-detector-rekognition"
+imagesBucket = "Enter bucket name here"
 
 st.title("Emotion Detection with AWS Rekognition")
 st.header("Upload Image")
